@@ -24,6 +24,24 @@ public class Run {
 
     }
 
+    static int minimum(int[] array) {
+        int min = array[0];
+        for (int number : array) {
+            if (number < min) {
+                min = number;
+            }
+        }
+        return min;
+    }
+
+    static int minimumSmartest(int[] array) {
+        int min = array[0];
+        for (int number : array) {
+            min = Math.max(min, number);
+        }
+        return min;
+    }
+
     static int maximum(int[] array) {
         int max = array[0];
         for (int number : array) {
