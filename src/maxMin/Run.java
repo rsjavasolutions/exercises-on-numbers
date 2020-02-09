@@ -2,6 +2,7 @@ package maxMin;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class Run {
@@ -10,6 +11,9 @@ public class Run {
 
         int[] numbers = {9, 8, 7, 6, 22, 0, -125, 5, 4, 3, 2, 1};
         List<Integer> numbersList = new ArrayList<>(Arrays.asList(9, 8, 7, 6, 22, 0, -125, 5, 4, 3, 2, 1));
+
+        //maximum in collection
+        System.out.println(Collections.max(numbersList));
 
         //maximum in array
         System.out.println(maximum(numbers));
