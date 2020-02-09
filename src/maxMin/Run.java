@@ -10,6 +10,8 @@ public class Run {
         List<Integer> numbersList = new ArrayList<>(Arrays.asList(9, 8, 7, 6, 22, 0, -125, 5, 4, 3, 2, 1));
         Set<Integer> integerSet = new HashSet<>(Arrays.asList(9, 8, 7, 6, 22, 0, -125, 5, 4, 3, 2, 1));
 
+        System.out.println("hello");
+
         //maximum in set
         System.out.println(Collections.max(integerSet));
 
