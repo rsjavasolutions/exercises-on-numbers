@@ -21,6 +21,16 @@ public class Run {
         //maximum in array(Math Class)
         System.out.println(maximumSmartest(numbers));
 
+        //minimum in collection
+        System.out.println(Collections.min(numbersList));
+
+        //minimum in array
+        System.out.println(minimum(numbers));
+
+        //minimum in array(Math Class)
+        System.out.println(minimumSmartest(numbers));
+
+
 
     }
 
