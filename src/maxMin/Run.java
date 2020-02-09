@@ -47,7 +47,7 @@ public class Run {
     static int minimumSmartest(int[] array) {
         int min = array[0];
         for (int number : array) {
-            min = Math.max(min, number);
+            min = Math.min(min, number);
         }
         return min;
     }
