@@ -1,4 +1,4 @@
-package maxMin;
+package maxmin;
 
 import java.util.*;
 
